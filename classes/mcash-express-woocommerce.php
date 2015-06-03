@@ -157,12 +157,12 @@ class Mcash_Express_Woocommerce extends Mcash_Woocommerce
                 'title' => __( 'Select picture for mCASH Express button', 'mcash-woocommerce-gateway'),
                 'type' => 'select',
                 'options' => array(
-                    '/assets/images/btn_mcash_express_blue@3x.png'       => __( 'blue' , 'mcash-woocommerce-gateway'),
-                    '/assets/images/btn_mcash_express_dark@3x.png'       => __( 'dark' , 'mcash-woocommerce-gateway'),
-                    '/assets/images/btn_mcash_express_dark_green@3x.png' => __( 'dark_green' , 'mcash-woocommerce-gateway'),
-                    '/assets/images/btn_mcash_express_gray@3x.png'       => __( 'grey' , 'mcash-woocommerce-gateway'),
-                    '/assets/images/btn_mcash_express_green@3x.png'      => __( 'green' , 'mcash-woocommerce-gateway') ),
-                'default' => '/assets/images/btn_mcash_express_blue@3x.png'
+                    '/assets/images/btn_mcash_express_blue_3x.png'       => __( 'blue' , 'mcash-woocommerce-gateway'),
+                    '/assets/images/btn_mcash_express_dark_3x.png'       => __( 'dark' , 'mcash-woocommerce-gateway'),
+                    '/assets/images/btn_mcash_express_dark_green_3x.png' => __( 'dark_green' , 'mcash-woocommerce-gateway'),
+                    '/assets/images/btn_mcash_express_gray_3x.png'       => __( 'grey' , 'mcash-woocommerce-gateway'),
+                    '/assets/images/btn_mcash_express_green_3x.png'      => __( 'green' , 'mcash-woocommerce-gateway') ),
+                'default' => '/assets/images/btn_mcash_express_blue_3x.png'
             ),
         );      
     }
