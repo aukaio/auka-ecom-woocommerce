@@ -337,12 +337,15 @@ class Mcash_Woocommerce extends WC_Payment_Gateway
     
     function order_description($order)
     {
+        $this->log('order_description() order = ' . print_r($order, true));
         $text = "";
         if (sizeof($order->get_items()) > 0 ) {
             foreach ( $order->get_items() as $item ) {
-                $text = $text . $item['qty'] . "\t" . $item['name'] . "\t" . wc_format_decimal($item['line_subtotal'], 2) . "\n";
-            } 
+                $this->log('order_description() item = ' . print_r($item, true));
+                $text = $text . $item['qty'] . "\t" . $item['name'] . "\t" . wc_format_decimal($item['line_subtotal'] + $item['line_subtotal_tax'], 2) . "\n";
+            }
         }
+        $this->log('order_description() text = ' . $text);
         return $text;
     }
 
