@@ -14,8 +14,9 @@ Provides a mCASH payment gateway for WooCommerce.
 
 Provides a mCASH payment gateway for WooCommerce.
 
-[ ![Image](/assets/screenshot_phone_shop.png "phone shop") ](https://drive.google.com/file/d/0B-QveKJnncYyMk8xM2dibGZ0UXc/view?usp=sharing "screencast")
+[youtube https://www.youtube.com/watch?v=oMzxN6S5-lM]
 
+Only availble for Norwegian residents.
 
 == Installation ==
 
@@ -33,6 +34,7 @@ Provides a mCASH payment gateway for WooCommerce.
 4. Activate the plugin by Clicking on 'Activate Plugin'
 5. Goto the WooCommerce->Settings->Checkout->mCASH->Settings to get started.
 
+[youtube https://www.youtube.com/watch?v=SeGFEo9SFv0]
 
 == Frequently Asked Questions ==
 
