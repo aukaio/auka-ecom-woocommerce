@@ -28,7 +28,7 @@ Only availble for Norwegian residents.
 
 = the easy way =
 
-1. As admistration, goto 'Plugins' then Click on 'Add New',
+1. As administrator, goto 'Plugins' then Click on 'Add New',
 2. Search for 'mcash-woocommerce' then Click on 'Install Now',
 3. Wait for it to download, Unpack and to install,
 4. Activate the plugin by Clicking on 'Activate Plugin'
